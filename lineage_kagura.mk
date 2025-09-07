@@ -35,3 +35,8 @@ PRODUCT_MANUFACTURER := Sony
 PRODUCT_GMS_CLIENTID_BASE := android-sony
 
 TARGET_VENDOR := Sony
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="kagura_dsds-user 8.0.0 OPR1.170623.026 1 dev-keys"
+
+BUILD_FINGERPRINT := Sony/kagura_dsds/kagura_dsds:8.0.0/OPR1.170623.026/1:user/dev-keys
