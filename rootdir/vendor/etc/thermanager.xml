@@ -127,13 +127,13 @@
     <!-- charging levels -->
     <control name="charging">
     <mitigation level="off"><value resource="charge_speed">0</value></mitigation>
-    <mitigation level="1"><value resource="charge_speed">2</value></mitigation>
-    <mitigation level="2"><value resource="charge_speed">5</value></mitigation>
-    <mitigation level="3"><value resource="charge_speed">8</value></mitigation>
-    <mitigation level="4"><value resource="charge_speed">9</value></mitigation>
-    <mitigation level="5"><value resource="charge_speed">11</value></mitigation>
-    <mitigation level="6"><value resource="charge_speed">12</value></mitigation>
-    <mitigation level="7"><value resource="charge_speed">13</value></mitigation>
+    <mitigation level="off"><value resource="charge_speed">2</value></mitigation>
+    <mitigation level="off"><value resource="charge_speed">5</value></mitigation>
+    <mitigation level="off"><value resource="charge_speed">8</value></mitigation>
+    <mitigation level="off"><value resource="charge_speed">9</value></mitigation>
+    <mitigation level="off"><value resource="charge_speed">11</value></mitigation>
+    <mitigation level="off"><value resource="charge_speed">12</value></mitigation>
+    <mitigation level="off"><value resource="charge_speed">13</value></mitigation>
     </control>
 
     <!-- CPU temperature protection - Values in deci-centigrade -->
