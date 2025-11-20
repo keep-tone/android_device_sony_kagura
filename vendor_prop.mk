@@ -16,9 +16,5 @@
 
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.qfp=false \
     ro.hardware.fingerprint=fpc \
     sys.fpc.tu.disabled=0
-
-# USB
-PRODUCT_PROPERTY_OVERRIDES += ro.usb.pid_suffix=1E7
